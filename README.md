@@ -10,7 +10,7 @@ Copy this code to your .mongoshrc or add these lines to you Node Project (or mak
 This defines functions names the same as the mongodb query operators which simplify how you write, there are two forms
 a single argument form and a varadic argument form. 
 
-```
+```js
 //Query like this
 
 >name = 'John'
