@@ -13,14 +13,15 @@ a single argument form and a varadic argument form.
 ```
 //Query like this
 
-name = 'John'
-score = gt(10)
-query =  {name,score}
+>name = 'John'
+>score = gt(10)
+>query =  {name,score}
 
+{ name: 'John', score: { '$gt': 10 } }
 
 //or complex like
 
-query = or( { name: "john", score: gt(10) }, 
+>query = or( { name: "john", score: gt(10) }, 
               and ( {name: 'sarah', score: gt(8) }, 
                     {game:'cricket'}) )
 
