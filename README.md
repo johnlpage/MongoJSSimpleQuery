@@ -28,7 +28,9 @@ a single argument form and a varadic argument form.
 {
   '$or': [
     { name: 'john', score: { '$gt': 10 } },
-    { name: 'sarah', score: { '$gt': 8 } }
+    {
+      '$and': [ { name: 'sarah', score: { '$gt': 8 } }, { game: 'cricket' } ]
+    }
   ]
 }
 
