@@ -5,7 +5,7 @@ A tiny set of global helper functions to make writing MongoDB Queries in JS easi
 
 Copy this code to your .mongoshrc or add these lines to you Node Project (or make an NPM package)
 
-##Usage
+## Usage
 
 This defines functions names the same as the mongodb query operators which simplify how you write, there are two forms
 a single argument form and a varadic argument form. 
